@@ -1,35 +1,4 @@
 
-@media (max-width:1200px) {
-    .main-content__bg {
-        width: 1300px;
-        height: 1350px;
-    }
-
-    .main-button {
-        margin-top: 50px;
-    }
-}
-
-
-@media (max-width: 1024px) {
-    .main-title {
-        width: 80%;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .main-title__name h1 {
-        font-size: 36px;
-    }
-
-    .main-content__bg {
-        width: 550px;
-        height: 2540px;
-    }
-}
-
-
 @media (max-width: 1440px){
     .container{
         padding-left: 40px;
@@ -42,18 +11,111 @@
 
     .main-content__bg {
         width: 1400px;
-        height: 1380px;
+        height: 690px;
+    }
+
+
+    .image  img {
+        width: 256px;
+    }
+
+    .image-content{
+        left: 8px;
+        width: 250px;
+    }
+
+    .image-content__name {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1024px){
+    .main-content__bg {
+        width: 1080px;
+        height: 927px;
+    }
+
+    .image  img {
+        width: 226px;
+    }
+
+    .image-content{
+        left: 5px;
+        width: 235px;
+
+    }
+
+    .image-content__name {
+        font-size: 25px;
     }
 }
 
 
-@media (max-width: 540px) {
-    .main-title__name h1 {
-        font-size: 36px;
+
+@media (max-width: 768px){
+    .main-content__bg {
+        width: 795px;
+        height: 1235px;
     }
 
+    .main-title__name h1 {
+        font-size: 55px;
+    }
+
+    .main-title__bg {
+        top: 16%;
+        font-size: 90px;
+    }
+
+    .image-content {
+        width: 220px;
+    }
+}
+
+
+@media (max-width: 425px){
     .main-content__bg {
-        width: 510px;
-        height: 3240px;
+        width: 525px;
+        height: 2560px;
+    }
+
+
+    .main-content ul {
+        justify-content: center;
+    }
+
+    .main-title__bg {
+        top: 6%;
+        font-size: 75px;
+    }
+    
+}
+
+
+@media (max-width: 375px){
+    .main-content__bg {
+        width: 500px;
+    }
+
+
+    .main-title__bg {
+        top: 6%;
+        font-size: 75px;
+    }
+    
+}
+
+
+@media (max-width: 375px) {
+    .main-content__bg {
+        width: 445px;
+    }
+
+    .main-title__bg {
+        font-size: 70px;
+    }
+
+    .main-button {
+        width: 210px;
     }
 }
